@@ -29,7 +29,7 @@ export class News extends Component {
         };
         document.title = `${this.capatilizeFirstLetter(
             this.props.category
-        )} - NewsMonkey`;
+        )} - InstaNews`;
     }
 
     async updateNews() {
@@ -95,7 +95,7 @@ export class News extends Component {
             
                 <>
                     <h1 className="text-center" style={{margin:'35px 0px'}}>
-                        News Monkey - Top {this.capatilizeFirstLetter(this.props.category)}{" "}
+                        Insta News - Top {this.capatilizeFirstLetter(this.props.category)}{" "}
                         Headlines
                     </h1>
 
